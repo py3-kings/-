@@ -24,6 +24,8 @@ jobs:
           python -m pip install --upgrade pip
           pip3 install requests==2.28.1
           pip3 install zhdate==0.1
+          pip3 install parsel==1.6.0
+          pip3 install yagmail==0.15.283
       - name: main
         run: |
           python3 novel.py
