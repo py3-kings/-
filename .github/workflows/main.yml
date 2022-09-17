@@ -22,8 +22,8 @@ jobs:
       - name: install pip packages
         run: |
           python -m pip install --upgrade pip
-          pip3 install -r requests==2.28.1
-          pip3 install -r zhdate==0.1
+          pip3 install requests==2.28.1
+          pip3 install zhdate==0.1
       - name: main
         run: |
           python3 novel.py
