@@ -37,7 +37,7 @@ def mail(new_name):
     # 将保存好的小说发送邮箱
     data = {
         'user': '2287585490@qq.com',
-        'password': 'hmvcntwbmcdtecei',
+        'password': 'gawkutciadcidibb',
         'host': 'smtp.qq.com'
     }
     yag = yagmail.SMTP(user=data['user'], password=data['password'], host=data['host'])
