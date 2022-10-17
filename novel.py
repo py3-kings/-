@@ -61,5 +61,5 @@ if __name__ == '__main__':
     while 1:
         renew()
         time.sleep(600)
-        if len(name_list) > 7:
+        if len(set(name_list)) > 7:
             name_list = []
