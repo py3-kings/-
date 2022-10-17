@@ -58,10 +58,8 @@ def renew():
 if __name__ == '__main__':
     # 定义一个章节容器
     name_list = []
-    count = 1
     while 1:
-        count += 1
         renew()
         time.sleep(600)
-        if count > 7:
+        if len(name_list) > 7:
             name_list = []
